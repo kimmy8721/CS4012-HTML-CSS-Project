@@ -5,7 +5,7 @@ body {
 
 nav {
   display: -moz-inline-box;
-  text-align: left;
+  text-align: center;
   list-style-type: none;
   margin-top: 2%;
   margin-bottom: 2%;
@@ -14,3 +14,18 @@ nav {
   border-style: solid;
   background-color: #ffd67d;
 }
+
+.dropdown {
+  position: relative
+}
+
+.dropbtn {
+  background-color: white;
+  color: #ffb37d;
+  padding: 16px;
+  font-size: 16px;
+  border: groove;
+  cursor: pointer;
+}
+
+
