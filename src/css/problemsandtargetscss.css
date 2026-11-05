@@ -1,0 +1,16 @@
+body {
+  text-align: center;
+  background: #ffefcd
+}
+
+nav {
+  display: -moz-inline-box;
+  text-align: left;
+  list-style-type: none;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  padding: 2%;
+  border: 1px;
+  border-style: solid;
+  background-color: #ffd67d;
+}
