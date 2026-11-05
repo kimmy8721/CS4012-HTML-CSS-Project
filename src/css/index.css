@@ -1,1 +1,74 @@
+/*** Author and Author's note ***
+ * Author of this css file: Christine McLoughlin
+ * Author's note: This css file is divided into sections, covering firstly elements, then classes.
+ *
+ * To other contributors, if you check this: Please communicate to me about style choices.
+ *** END ***/
+/* elements */
 
+body {
+  text-align: center;
+  background: #ffffff;
+  padding: 2%;
+  margin-left: 5%;
+  margin-right: 5%;
+  appearance: auto;
+}
+
+nav {
+  display: flex;
+  text-align: center;
+  list-style-type: none;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  padding: 2%;
+  border: 1px;
+  border-style: solid;
+  background-color: #ffb37d;
+}
+
+/* classes */
+
+.title {
+  text-align: center;
+  background: #fff57d;
+  border: 1px;
+  border-style: solid;
+}
+
+.nav {
+  display: flex;
+}
+.nav tb a {
+  display: block;
+  color: #302e2f;
+  padding: 10px 12px;
+  text-decoration: none;
+}
+
+.nav tb a:hover {
+  color: #0026ff;
+}
+.col_container {
+  text-align: center;
+  margin-top: 2%;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 2%;
+  display: flex;
+  flex-wrap: wrap;
+  background: #ffb37d;
+  border: 1px;
+  border-style: solid;
+}
+
+.small-link {
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  margin-left: 30%;
+  margin-right: 30%;
+}
+.footer {
+  margin-bottom: 25px;
+}
