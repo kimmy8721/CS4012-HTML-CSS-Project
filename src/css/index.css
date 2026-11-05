@@ -24,7 +24,10 @@ nav {
   padding: 2%;
   border: 1px;
   border-style: solid;
-  background-color: #ffb37d;
+}
+
+h2 {
+  text-align: center;
 }
 
 /* classes */
@@ -40,7 +43,6 @@ nav {
   display: flex;
 }
 .nav tb a {
-  display: block;
   color: #302e2f;
   padding: 10px 12px;
   text-decoration: none;
@@ -49,19 +51,22 @@ nav {
 .nav tb a:hover {
   color: #0026ff;
 }
-.col_container {
-  text-align: center;
-  margin-top: 2%;
-  margin-left: 10%;
-  margin-right: 10%;
-  margin-bottom: 2%;
+.container {
   display: flex;
-  flex-wrap: wrap;
-  background: #ffb37d;
+  text-align: center;
+}
+.container div {
+  text-align: center;
+  margin: 1%;
+  padding: 2%;
   border: 1px;
   border-style: solid;
+  flex-direction: column;
 }
-
+.article {
+  margin: 1%;
+  padding: 2%;
+}
 .small-link {
   text-align: center;
   text-decoration: none;
