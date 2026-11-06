@@ -16,7 +16,7 @@ body {
 }
 
 nav {
-  display: flex;
+  display: inline-block;
   text-align: center;
   list-style-type: none;
   margin-top: 2%;
@@ -28,11 +28,13 @@ nav {
 
 h2 {
   text-align: center;
+  margin-bottom: 0%;
+  padding-bottom: 1%;
 }
 
 /* classes */
 .container0 {
-  background-image: url(../img/guy-pointing-at-himself.jpg);
+  /*  background-image: url(../img/guy-pointing-at-himself.jpg); */
 }
 .title {
   text-align: center;
@@ -42,12 +44,13 @@ h2 {
 }
 
 .nav {
-  display: flex;
+  display: inline-block;
 }
 .nav tb a {
   color: #302e2f;
   padding: 10px 12px;
   text-decoration: none;
+  display: inline-block;
 }
 
 .nav tb a:hover {
