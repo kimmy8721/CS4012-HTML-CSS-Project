@@ -31,7 +31,9 @@ h2 {
 }
 
 /* classes */
-
+.container0 {
+  background-image: url(../img/guy-pointing-at-himself.jpg);
+}
 .title {
   text-align: center;
   background: rgb(255, 220, 125);
