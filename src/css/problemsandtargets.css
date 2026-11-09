@@ -1,7 +1,6 @@
 body {
   text-align: center;
   background: #ffefcd
-  padding: 0;
 }
 
 ul {
@@ -28,3 +27,8 @@ ul li a:hover {
   background-color: #ffb37d;
 }
 
+p {
+  text-align:center;
+  padding: 20px;
+  border-style: groove;
+}
