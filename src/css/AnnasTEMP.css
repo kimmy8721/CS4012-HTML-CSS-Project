@@ -1,89 +1,18 @@
-<<<<<<< HEAD
-/*** Author and Author's note ***
- * Author of this css file: Christine McLoughlin. Christine, if you're reading this, THIS IS TEMPORARY! I AM USING THIS AS REFERENCE TO THEN CONFIGURE. THANK YOU FOR UNDERSTANDING. - anna
- * Author's note: This css file is divided into sections, covering firstly elements, then classes.
- *
- * To other contributors, if you check this: Please communicate to CHRISTINE about style choices.
- *** END ***/
-/* elements */
-
-body {
-  text-align: left;
-  background: #ffffff;
-  padding: 2%;
-  margin-left: 5%;
-  margin-right: 5%;
-  appearance: auto;
-}
-
-nav {
-  display: inline-block;
-  text-align: left;
+ul {
   list-style-type: none;
-  margin-top: 2%;
-  margin-bottom: 2%;
-  padding: 2%;
-  border: 1px;
-  border-style: solid;
-}
-
-h2 {
-  text-align: center;
-  margin-bottom: 0%;
-  padding-bottom: 1%;
-}
-
-/* classes */
-<element class="container0">{
-
-}
-
-Selector Specificity: (0, 1, 0){
-  /*  background-image: url(../img/guy-pointing-at-himself.jpg); */
-}
-.title {
-  text-align: center;
-  background: rgb(255, 220, 125);
-  border: 1px;
-  border-style: solid;
-}
-
-.nav {
-  display: inline-block;
-}
-.nav tb a {
-  color: #302e2f;
-  padding: 10px 12px;
-  text-decoration: none;
-  display: inline-block;
-}
-
-.nav tb a:hover {
-  color: #0026ff;
-}
-.container {
+  margin: 0;
+  padding: 0;
+  background-color: #f3c674;
   display: flex;
-  text-align: left;
 }
-.container div {
-  text-align: center;
-  margin: 1%;
-  padding: 2%;
-  border: 1px;
-  border-style: solid;
-  flex-direction: column;
-}
-.article {
-  margin: 1%;
-  padding: 2%;
-}
-.small-link {
-  text-align: center;
-  text-decoration: none;
+
+ul li a {
   display: block;
-  margin-left: 30%;
-  margin-right: 30%;
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
 }
-.footer {
-  margin-bottom: 25px;
+
+ul li a:hover {
+  background-color: #c27a4e;
 }
