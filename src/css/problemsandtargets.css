@@ -31,4 +31,12 @@ p {
   text-align:center;
   padding: 20px;
   border-style: groove;
+  background-color: #ffffff;
+}
+
+ol {
+  text-align:center;
+  padding: 20px;
+  border-style: groove;
+  background-color: #ffffff;
 }
