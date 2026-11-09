@@ -17,7 +17,7 @@ ul li {
 
 ul li a {
   display: block;
-  color: #ffefcd;
+  color: #ffffff;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -40,3 +40,4 @@ ol {
   border-style: groove;
   background-color: #ffffff;
 }
+
