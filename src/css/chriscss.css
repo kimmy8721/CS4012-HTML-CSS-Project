@@ -1,0 +1,14 @@
+/*Backgroundd Colour*/
+body {background-color: #f3c674}
+
+/*Image Centering*/
+img {
+    display: block;
+    margin: auto;
+    width: 50%;
+}
+
+/*Table Styling*/
+table, th, td {
+    border: 1px solid black;
+}
