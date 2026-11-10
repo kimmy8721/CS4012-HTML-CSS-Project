@@ -1,8 +1,9 @@
+/*the temp part is no longer true but im not changing it to avoid issues.*/
 ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  background-color: #f3c674;
+  background-color: #196516;
   display: flex;
 }
 
@@ -14,5 +15,16 @@ ul li a {
 }
 
 ul li a:hover {
-  background-color: #c27a4e;
+  background-color: #0e4f29;
+}
+
+footer {
+  background-color: #ffffff;
+  color: rgb(180, 180, 180);
+  text-align: center;
+  padding: 3px;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
 }

@@ -1,0 +1,134 @@
+/*** Author and Author's note ***
+ * Author of this css file: Christine McLoughlin
+ * Author's note: This css file is divided into sections, covering firstly elements, then classes.
+ *
+ * To other contributors, if you check this: Please communicate to me about style choices.
+ *
+ * This is initially a cloned copy of *index.css*, edited by Christine for the sake of avoiding a massive headache. It may be significantly difference by the end of this process.
+******* END *******/
+/* elements */
+
+body {
+  text-align: left;
+  background: #ffeeff;
+  appearance: auto;
+  padding: 2%;
+}
+
+nav {
+  display: block;
+  text-align: center;
+  list-style-type: none;
+  margin-top: 2%;
+  margin-bottom: 0;
+  padding: 0;
+  border: 1px;
+  border-style: solid;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 0%;
+  padding-bottom: 1%;
+}
+
+/* classes */
+.title {
+  text-align: center;
+  background: rgb(255, 220, 125);
+  border: 1px;
+  border-style: solid;
+  border-radius: 10px;
+}
+
+.nav {
+  display: block;
+  text-align: center;
+  background-color: #196516;
+  margin-top: 2%;
+  border-radius: 10px;
+}
+.nav tb a {
+  color: #ffeeff;
+  padding: 10px 12px;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.nav tb a:hover {
+  color: #0026ff;
+}
+
+.littlesomething {
+  position: static;
+  top: 8%;
+  right: 20%;
+  margin: 2%;
+  text-decoration:;
+}
+.container {
+  display: flex;
+  text-align: left;
+}
+.container div {
+  text-align: left;
+  margin: 1%;
+  padding: 2%;
+  flex-direction: column;
+  /*background-color: #ff122d; */
+}
+.paragraph1 {
+  display: flex;
+  margin-top: 1%;
+  margin-bottom: 2%;
+  margin-left: 1%;
+  margin-right: 1%;
+  background-color: #ffcdff;
+  padding: 2%;
+  border: 1px;
+  border-style: solid;
+  border-radius: 10px;
+}
+
+.designs {
+  display: inline;
+  padding: 2px;
+}
+
+.designs img {
+  float: right;
+  border: 1px;
+  border-style: solid;
+  border-radius: 10px;
+}
+.headb4help {
+  padding: 2%;
+  margin-left: 80%;
+  /*margin-right: 20%;*/
+  background-color: #ffcdff;
+  border: 1px;
+  border-style: solid;
+  border-radius: 10px;
+}
+.help {
+  display: inline-block;
+  background-color: #ffcdff;
+  float: right;
+  padding: 2%;
+  margin: 2px;
+
+  border: 1px;
+  border-style: solid;
+  border-radius: 10px;
+}
+
+.small-link {
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  margin-left: 30%;
+  margin-right: 30%;
+}
+.footer {
+  margin-bottom: 25px;
+}
