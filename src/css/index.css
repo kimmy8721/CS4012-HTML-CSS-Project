@@ -16,12 +16,12 @@ body {
 }
 
 nav {
-  display: inline-block;
+  display: block;
   text-align: center;
   list-style-type: none;
   margin-top: 2%;
-  margin-bottom: 2%;
-  padding: 2%;
+  margin-bottom: 0;
+  padding: 0;
   border: 1px;
   border-style: solid;
 }
@@ -44,10 +44,11 @@ h2 {
 }
 
 .nav {
-  display: inline-block;
+  display: block;
+  background-color: #196516;
 }
 .nav tb a {
-  color: #302e2f;
+  color: #ffffff;
   padding: 10px 12px;
   text-decoration: none;
   display: inline-block;
