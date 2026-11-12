@@ -68,6 +68,10 @@ footer {
 }
 
 /*Link Styling*/
-a: hover {
-    color: red;
+a {
+    color: rgb(131, 23, 182);
+}
+
+a :hover {
+    background-color: rgb(94, 153, 184);
 }
