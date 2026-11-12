@@ -68,7 +68,7 @@ footer {
 
 /*Link Styling*/
 a {
-    color: rgb(131, 23, 182);
+    color: rgb(111, 111, 111);
 }
 
 a :hover {
@@ -90,4 +90,24 @@ h1 {
 iframe {
     display: block;
     margin: auto;
+}
+
+/*Nav Bar*/
+nav {
+    display: block;
+    text-align: center;
+    list-style-type: none;
+    margin-top: 2%;
+    margin-bottom: 0;
+    padding: 0;
+    border: 1px;
+    border-style: solid;
+}
+
+.nav {
+    display: block;
+    text-align: center;
+    background-color: #ffb795;
+    margin-top: 2%;
+    border-radius: 10px;
 }
