@@ -71,10 +71,9 @@ a {
     color: rgb(111, 111, 111);
 }
 
-a :hover {
-    background-color: rgb(94, 153, 184);
+a:hover {
+  color: #0026ff;
 }
-
 /*Heading Centering*/
 h3 {
     text-align: center;
@@ -93,21 +92,24 @@ iframe {
 }
 
 /*Nav Bar*/
-nav {
-    display: block;
+.nav
+td {
     text-align: center;
-    list-style-type: none;
-    margin-top: 2%;
-    margin-bottom: 0;
-    padding: 0;
-    border: 1px;
-    border-style: solid;
+    padding: 10px;
 }
 
-.nav {
-    display: block;
+
+.nav tb a {
+  color: #ffeeff;
+  padding: 10px 12px;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.nav tb a:hover {
+  color: #0026ff;
+}
+table {
+    margin: auto;
     text-align: center;
-    background-color: #ffb795;
-    margin-top: 2%;
-    border-radius: 10px;
 }
