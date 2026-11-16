@@ -6,11 +6,23 @@
  *
  * This is initially a cloned copy of *index.css*, edited by Christine for the sake of avoiding a massive headache. It may be significantly difference by the end of this process.
 ******* END *******/
+
+/* define colours */
+
+:root {
+  --background-color: #ffeeff;
+  --background-title: rgb(255, 220, 125);
+  --background-nav: #196516;
+  --nav-links: #ffeeff;
+  --nav-links-hover: #0026ff;
+  --background-para: #ffcdff;
+}
+
 /* elements */
 
 body {
   text-align: left;
-  background: #ffeeff;
+  background: var(--background-color);
   appearance: auto;
   padding: 2%;
 }
@@ -21,9 +33,22 @@ nav {
   list-style-type: none;
   margin-top: 2%;
   margin-bottom: 0;
+  background-color: var(--background-nav);
   padding: 0;
   border: 1px;
   border-style: solid;
+  border-radius: 10px;
+}
+
+nav tb a {
+  display: inline-block;
+  color: var(--nav-links);
+  padding: 10px 12px;
+  text-decoration: none;
+}
+
+nav tb a:hover {
+  color: var(--nav-links-hover);
 }
 
 h2 {
@@ -32,31 +57,19 @@ h2 {
   padding-bottom: 1%;
 }
 
+img {
+  max-height: 100%;
+  max-width: 100%;
+  object-fit: contain;
+}
+
 /* classes */
 .title {
   text-align: center;
-  background: rgb(255, 220, 125);
+  background: var(--background-title);
   border: 1px;
   border-style: solid;
   border-radius: 10px;
-}
-
-.nav {
-  display: block;
-  text-align: center;
-  background-color: #196516;
-  margin-top: 2%;
-  border-radius: 10px;
-}
-.nav tb a {
-  color: #ffeeff;
-  padding: 10px 12px;
-  text-decoration: none;
-  display: inline-block;
-}
-
-.nav tb a:hover {
-  color: #0026ff;
 }
 
 .littlesomething {
@@ -78,12 +91,12 @@ h2 {
   /*background-color: #ff122d; */
 }
 .paragraph1 {
-  display: flex;
+  display: inline;
   margin-top: 1%;
   margin-bottom: 2%;
   margin-left: 1%;
   margin-right: 1%;
-  background-color: #ffcdff;
+  background-color: var(--background-para);
   padding: 2%;
   border: 1px;
   border-style: solid;
@@ -92,7 +105,6 @@ h2 {
 
 .designs {
   display: inline;
-  padding: 2px;
 }
 
 .designs img {
@@ -103,20 +115,19 @@ h2 {
 }
 .headb4help {
   padding: 2%;
-  margin-left: 80%;
-  /*margin-right: 20%;*/
-  background-color: #ffcdff;
+  margin-left: 10%;
+  margin-right: 10%;
+  background-color: var(--background-para);
   border: 1px;
   border-style: solid;
   border-radius: 10px;
 }
 .help {
   display: inline-block;
-  background-color: #ffcdff;
-  float: right;
+  background-color: var(--background-para);
+  float: center;
   padding: 2%;
   margin: 2px;
-
   border: 1px;
   border-style: solid;
   border-radius: 10px;
