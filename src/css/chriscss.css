@@ -1,5 +1,5 @@
 /*Backgroundd Colour*/
-body {background-color: #f3c674}
+body {background-color: #e0ffd8}
 
 /*Image Centering*/
 img {
@@ -10,7 +10,7 @@ img {
 
 /*Table Styling*/
 table, th, td {
-    border: 3px solid rgb(94, 153, 184);
+    border: 3px solid rgb(84, 140, 140);
 }
 
 /*Heading Font Size*/
@@ -68,11 +68,11 @@ footer {
 
 /*Link Styling*/
 a {
-    color: rgb(111, 111, 111);
+    color: rgb(51, 121, 242);
 }
 
 a:hover {
-  color: #0026ff;
+  color: #2ec619;
 }
 /*Heading Centering*/
 h3 {
@@ -100,7 +100,7 @@ td {
 
 
 .nav tb a {
-  color: #ffeeff;
+  color: #ffffff;
   padding: 10px 12px;
   text-decoration: none;
   display: inline-block;
