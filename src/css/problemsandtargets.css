@@ -1,6 +1,6 @@
 body {
   text-align: center;
-  background: #ffefcd
+  background: #eaf7e7;
 }
 
 ul {
@@ -8,7 +8,7 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #ffb37d;
+  background-color: #8dd17c;
 }
 
 ul li {
@@ -17,14 +17,14 @@ ul li {
 
 ul li a {
   display: block;
-  color: #ffefcd;
+  color: #ffffff;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
 }
 
 ul li a:hover {
-  background-color: #ffb37d;
+  background-color: #8dd17c;
 }
 
 p {
@@ -32,6 +32,9 @@ p {
   padding: 20px;
   border-style: groove;
   background-color: #ffffff;
+  margin: 50px;
+  max-width: 50%;
+  max-height: max-content;
 }
 
 ol {
@@ -39,4 +42,19 @@ ol {
   padding: 20px;
   border-style: groove;
   background-color: #ffffff;
+  margin: 50px;
+  max-width: 50%;
+  max-height: max-content;
+}
+
+img {
+  float: right;
+  width: 700px;
+  padding-right: 30px;
+}
+
+h1 {
+  padding: 20px;
+  margin: 50px;
+  text-align: left;
 }
