@@ -58,3 +58,8 @@ h1 {
   margin: 50px;
   text-align: left;
 }
+
+video {
+  width: 500px;
+  height: max-content
+}
