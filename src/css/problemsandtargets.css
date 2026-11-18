@@ -1,6 +1,6 @@
 body {
   text-align: center;
-  background: #ffefcd
+  background: #eaf7e7;
 }
 
 ul {
@@ -8,7 +8,7 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #ffb37d;
+  background-color: #8dd17c;
 }
 
 ul li {
@@ -24,7 +24,7 @@ ul li a {
 }
 
 ul li a:hover {
-  background-color: #ffb37d;
+  background-color: #8dd17c;
 }
 
 p {
@@ -32,6 +32,9 @@ p {
   padding: 20px;
   border-style: groove;
   background-color: #ffffff;
+  margin: 50px;
+  max-width: 50%;
+  max-height: max-content;
 }
 
 ol {
@@ -39,4 +42,9 @@ ol {
   padding: 20px;
   border-style: groove;
   background-color: #ffffff;
+}
+
+img {
+  float: right;
+  width: 300px;
 }
