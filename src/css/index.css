@@ -9,7 +9,11 @@
 /* define colors */
 
 :root {
-  --background-color: #ffedff;
+  /*--background-color: #ffedff;
+   * 
+   * new background color */
+  --background-color: #a9fc8daa;
+  --background-articles: #ffedff;
   --title-bg: rgb(255, 220, 125);
   --nav-bg: #196516;
   --nav-links: #ffffff;
@@ -81,6 +85,7 @@ h2 {
   border-style: solid;
   border-radius: 5px;
   flex-direction: column;
+  background-color: var(--background-articles);
 }
 .article {
   margin: 1%;
@@ -102,4 +107,5 @@ h2 {
 
 .footer {
   margin-bottom: 25px;
+  margin-top: 2px;
 }
