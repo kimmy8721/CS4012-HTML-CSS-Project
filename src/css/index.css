@@ -4,11 +4,23 @@
  *
  * To other contributors, if you check this: Please communicate to me about style choices.
  *** END ***/
+
+/* TODO: clean this mess up */
+/* define colors */
+
+:root {
+  --background-color: #ffedff;
+  --title-bg: rgb(255, 220, 125);
+  --nav-bg: #196516;
+  --nav-links: #ffffff;
+  --links: #191919;
+  --link-hover: #0026ff;
+}
 /* elements */
 
 body {
   text-align: center;
-  background: #ffffff;
+  background: var(--background-color);
   padding: 2%;
   margin-left: 5%;
   margin-right: 5%;
@@ -18,12 +30,14 @@ body {
 nav {
   display: block;
   text-align: center;
+  background-color: var(--nav-bg);
   list-style-type: none;
   margin-top: 2%;
   margin-bottom: 0;
   padding: 0;
   border: 1px;
   border-style: solid;
+  border-radius: 5px;
 }
 
 h2 {
@@ -38,24 +52,22 @@ h2 {
 }
 .title {
   text-align: center;
-  background: rgb(255, 220, 125);
+  background: var(--title-bg);
   border: 1px;
   border-style: solid;
+  border-radius: 5px;
 }
 
-.nav {
-  display: block;
-  background-color: #196516;
-}
 .nav tb a {
-  color: #ffffff;
+  color: var(--nav-links);
   padding: 10px 12px;
   text-decoration: none;
   display: inline-block;
 }
 
 .nav tb a:hover {
-  color: #0026ff;
+  color: var(--link-hover);
+  font-style: italic;
 }
 .container {
   display: flex;
@@ -67,19 +79,27 @@ h2 {
   padding: 2%;
   border: 1px;
   border-style: solid;
+  border-radius: 5px;
   flex-direction: column;
 }
 .article {
   margin: 1%;
   padding: 2%;
 }
-.small-link {
+.container a {
   text-align: center;
   text-decoration: none;
+  color: var(--links);
   display: block;
   margin-left: 30%;
   margin-right: 30%;
 }
+
+.container a:hover {
+  color: var(--link-hover);
+  font-style: italic;
+}
+
 .footer {
   margin-bottom: 25px;
 }
