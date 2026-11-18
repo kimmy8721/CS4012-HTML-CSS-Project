@@ -57,9 +57,11 @@ h1 {
   padding: 20px;
   margin: 50px;
   text-align: left;
+  text-decoration: underline;
 }
 
-video {
-  width: 500px;
-  height: max-content
+iframe {
+  float: right;
+  padding-right: 30px;
+  margin-right: 50px;
 }
