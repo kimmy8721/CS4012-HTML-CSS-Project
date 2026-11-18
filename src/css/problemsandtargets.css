@@ -61,5 +61,7 @@ h1 {
 }
 
 iframe {
-  float: center
+  float: right;
+  padding-right: 30px;
+  margin-right: 50px;
 }
