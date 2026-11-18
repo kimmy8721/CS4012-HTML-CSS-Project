@@ -10,7 +10,7 @@ img {
 
 /*Table Styling*/
 table, th, td {
-    border: 5px solid rgb(84, 140, 140);
+    border: 5px solid rgb(118, 185, 185);
 }
 
 /*Heading Font Size*/
@@ -18,48 +18,48 @@ h1{
     font-size: 40px;
 }
 h2{
-    font-size: 25px;
+    font-size: 30px;
 }
 h3{
-    font-size: 20px;
+    font-size: 30px;
 }
 h3{
-    font-size: 25px;
+    font-size: 30px;
 }
 h4 {
-    font-size: 25px;
+    font-size: 30px;
 }
 h5{
-    font-size: 25px;
+    font-size: 30px;
 }
 h6 {
-    font-size: 25px;
+    font-size: 30px;
 }
 
 /*Underline Styling*/
 h1 {
     text-decoration: underline;
-    text-decoration-color: rgb(94, 153, 184)
+    text-decoration-color: rgb(81, 218, 179)
 }
 h2 {
     text-decoration: underline;
-    text-decoration-color: rgb(94, 153, 184)
+    text-decoration-color: rgb(81, 218, 179)
 }
 h3 {
     text-decoration: underline;
-    text-decoration-color: rgb(94, 153, 184)
+    text-decoration-color: rgb(81, 218, 179)
 }
 h4 {
     text-decoration: underline;
-    text-decoration-color: rgb(94, 153, 184)
+    text-decoration-color: rgb(81, 218, 179)
 }
 h5 {
     text-decoration: underline;
-    text-decoration-color: rgb(94, 153, 184)
+    text-decoration-color: rgb(81, 218, 179)
 }
 h6 {
     text-decoration: underline;
-    text-decoration-color: rgb(94, 153, 184)
+    text-decoration-color: rgb(81, 218, 179)
 }
 footer {
     text-align: center;
