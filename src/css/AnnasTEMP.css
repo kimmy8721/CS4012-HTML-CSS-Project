@@ -19,10 +19,11 @@ ul li a:hover {
 }
 
 footer {
-  color: rgb(180, 180, 180);
+  color: rgb(0, 0, 0);
   text-align: center;
   padding: 3px;
   position: fixed;
+  opacity: 0.8;
   left: 0;
   bottom: 0;
   width: 100%;
