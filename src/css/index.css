@@ -96,12 +96,7 @@ h2 {
   background-color: var(--background-articles);
 }
 
-.article {
-  margin: 1%;
-  padding: 2%;
-}
-
-.container a {
+.small-link {
   text-align: center;
   text-decoration: none;
   color: var(--links);
@@ -113,6 +108,21 @@ h2 {
 .container a:hover {
   color: var(--link-hover);
   font-style: italic;
+}
+
+.article {
+  margin: 1%;
+  padding: 2%;
+}
+
+.article a {
+  color: var(--links);
+  text-decoration: none;
+}
+
+.article a:hover {
+  color: var(--link-hover);
+  text-decoration: none;
 }
 
 .footer {
